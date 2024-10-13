@@ -1,0 +1,19 @@
+{
+  "name": "backend-mastery-node",
+  "version": "1.0.0",
+  "description": "Backend project based in node built from scratch which is developed in focus to integrate multiple databases, multiple technologies etc under a single project.",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm run start"
+  },
+  "author": "Sourab Kadadi",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.4.1",
+    "mysql2": "^3.11.0"
+  }
+}
